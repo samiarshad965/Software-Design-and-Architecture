@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZaMfLEaDo4HGJU8MycMq">
+    <mxGraphModel dx="1128" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-24" edge="1" parent="1" source="AEOj2zL8Ag-Er5SDhQUo-1" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AEOj2zL8Ag-Er5SDhQUo-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-40" connectable="0" parent="AEOj2zL8Ag-Er5SDhQUo-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.9055" y="-7" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Student&lt;div&gt;&lt;div&gt;---------------------------------------&lt;/div&gt;&lt;div&gt;studentID: string&lt;/div&gt;&lt;div&gt;name: string&lt;/div&gt;&lt;div&gt;---------------------------------------&lt;/div&gt;&lt;div&gt;cancelEnrollment()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-33" edge="1" parent="1" source="AEOj2zL8Ag-Er5SDhQUo-3" style="edgeStyle=orthogonalEdgeStyle;shape=wire;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;defaultLabelBackgroundColor=page;entryX=0.573;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="AEOj2zL8Ag-Er5SDhQUo-6">
+          <mxGeometry relative="1" x="0.0033" as="geometry">
+            <mxPoint x="390" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-42" connectable="0" parent="AEOj2zL8Ag-Er5SDhQUo-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8534" y="9" as="geometry">
+            <mxPoint x="2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Course&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;------------------------------------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;courseCode: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;title: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;creditHours: int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;capacity: int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;------------------------------------------&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: light-dark(rgb(255, 255, 255), rgb(34, 34, 34));&quot;&gt;checkAvailableSeat(): boolean&lt;/span&gt;&lt;/div&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="170" x="470" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Enrollment&lt;div&gt;-----------------------------&lt;/div&gt;&lt;div&gt;registrationDate: Date&lt;/div&gt;&lt;div&gt;status: string&lt;/div&gt;&lt;div&gt;-----------------------------&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AEOj2zL8Ag-Er5SDhQUo-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="425" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
